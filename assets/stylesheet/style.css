@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* ::after, ::before, * {
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.5;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after, .clearfix::before {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+
+.container {
+  width: 1178px;
+  margin: 0 auto;
+}
+
+.padding {
+  padding: 90px 0;
+}
+/* header */
+.main-header {
+  background-color: black;
+}
+.nav-links {
+  background-color:#AD103C;
+}
+
+.logo {
+  color: white;
+  font-size: 32px;
+  padding: 30px 0;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.nav-links {
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 30px 0;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.nav-links a {
+  color: white;
+  margin-right: 12px;
+}
+
+.hero-img{
+  width:100%;
+}
+
+/* section-1  */
+.hero-section {
+  background-color: #F3F3F3;
+}
+.sec-main-heading{
+  color: rgba(0,0,0,0.8);
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 600;
+}
+.sec-main-para {
+  color: #6F6F6F;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.user-1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.user-1 img {
+  width: 100%;
+  margin: 28px 0;
+}
+
+.user-1 h3 {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 600;
+}
+
+.user-1 p {
+  text-transform: capitalize;
+  font-size: 16px;
+  margin: 22px 0;
+}
+
+.btn {
+  padding: 18px 32px;
+  text-transform: uppercase;
+  background-color: #AD103C;
+  color: white;
+  border: 0;
+}
+
+/* section-2  */
+.user-1 .sec-2-heading {
+  font-size: 32px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 600;
+}
+
+.user-1 .sec-2-para{
+  font-size:18px;
+}
+
+/* section-3  */
+/* section-4  */
+.section-4 {
+  background-color:#AD103C;
+}
+.welcome-heading{
+  text-transform: capitalize;
+  font-size: 36px;
+  color: #6F6F6F;
+  padding: 42px 0;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 600;
+}
+
+.our-detail {
+  font-size: 18px;
+  color: white;
+  padding-bottom: 60px;
+}
+
+.our-detail a {
+  font-size: 18px;
+  color: #6F6F6F;
+  text-transform: uppercase;
+}
+
+/* footer  */
+.footer {
+  background-color: #121212;
+}
+.copy-right{
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+}
+
+.social-links {
+  text-align: center;
+  padding: 42px 0;
+}
+.fab {
+  color: white;
+  font-size: 32px;
+ margin-left: 20px;
+}
